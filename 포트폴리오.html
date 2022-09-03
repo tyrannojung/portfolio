@@ -1,0 +1,689 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>도전이 두렵지 않은 &#x27;자신감&#x27; 정다운 입니다.</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="37c40aa6-3f96-4220-ab2c-f53631ec0967" class="page sans"><header><img class="page-cover-image" src="data/photo-1514880448122-7e417213b996.jfif" style="object-position:center 49.88%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">😍</span></div><h1 class="page-title">도전이 두렵지 않은 &#x27;자신감&#x27; 정다운 입니다.</h1></header><div class="page-body"><p id="0f79d081-2d1c-4afd-8f6e-39029a8a3584" class="">
+</p><p id="bb7f638e-474a-4e1e-ae93-739259a588a9" class="">
+</p><div id="9c6aad4f-f217-477e-9989-95b75bc28b1b" class="column-list"><div id="60f8e78b-8fe7-4b67-b77d-c3fb34b01d82" style="width:25%" class="column"><figure id="b774fab8-e5a7-4366-8e06-bdd2a8940981" class="image"><a href="data/%25EB%258B%25A4%25EC%259A%25B4%25EB%25A1%259C%25EB%2593%259C.jfif"><img style="width:810px" src="data/%25EB%258B%25A4%25EC%259A%25B4%25EB%25A1%259C%25EB%2593%259C.jfif"/></a></figure><p id="0aae9d9e-9121-49ea-8dd2-7c4a9d27719e" class="">
+</p></div><div id="8ab4f0b4-95e2-4cba-87ec-c1d6a6879ce5" style="width:75%" class="column"><ul id="24bba1f9-e1dd-4e3b-b2e5-10cadcddbadf" class="bulleted-list"><li style="list-style-type:disc">안녕하세요! 3년 차 백엔드 개발자 정다운입니다.</li></ul><ul id="e3361763-ccbd-4822-81cb-ce532be617dd" class="bulleted-list"><li style="list-style-type:disc">5년간 영업을 하여, 누구보다 <code>대화</code>에 <code>집중</code>을 잘합니다. </li></ul><ul id="419df129-5ec4-47c6-90c1-05e7c3b50094" class="bulleted-list"><li style="list-style-type:disc">전형적인 <a href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-enfj">ENFJ</a>로 남을 생각하는게 습관화 되어있습니다.</li></ul><ul id="a4175f8e-d669-44c0-a364-fd5ec6bc0321" class="bulleted-list"><li style="list-style-type:disc">책읽기와 글쓰기를 좋아합니다. 가장 최근의 읽은 책은 <a href="https://tyrannocoding.tistory.com/69">&#x27;Blockchain Bubble or Revolution The Future of Bitcoin&#x27;</a>  입니다.</li></ul><ul id="3919e073-08dd-4291-a2ed-f2c909eec7ca" class="bulleted-list"><li style="list-style-type:disc">‘심플한’ 아름다움을 좋아하는 전형적인 <code>스티브잡스</code> 팬입니다.</li></ul><p id="611ad4c8-0174-45ef-9f03-f19a1872ea39" class="">
+</p><p id="fea76f9c-e5c6-4054-94bf-3108eabe254d" class="">
+</p></div></div><h1 id="6464e488-7431-48f3-ada5-023f0d564c8b" class="">🔎 Profile</h1><figure id="c761544a-bc12-47d1-a396-a3bcb7786520" class="image"><a href="data/Line_1_(1).png"><img style="width:1080px" src="data/Line_1_(1).png"/></a></figure><div id="ac4426b0-1208-4532-b5de-c28c6749db12" class="column-list"><div id="fea21ace-e0c7-4d92-9b2f-a3e2faa097b2" style="width:50%" class="column"><h3 id="a7a81e19-9237-4b79-9fed-46e38e8045c3" class="">경력  <mark class="highlight-gray">(3년차)</mark></h3><p id="d777d99c-da02-4bb0-97f8-04c4bfa8c0d3" class="">• <a href="https://abc.ne.kr/">(주)ABC</a> 연구소   <mark class="highlight-gray">2020.9 - 현재</mark></p><p id="5910399a-fe31-4fe3-ba64-bd400bf0aa42" class="">• 웹/앱 신규 서비스 다수 론칭</p><p id="bc409b1f-5d83-4cac-bfd3-95e96ab48458" class="">• <code>블록체인</code> 연동 API 개발</p><p id="5a3a100b-f4b2-4a4c-8377-11e7487b5987" class="">• Web extension WALLET 개발</p><p id="b11f7ddd-2c27-4043-bc79-63b740da7796" class="">
+</p><h3 id="49b8adf0-a727-4a68-80d5-d05ce6a3e96b" class="">자격증 </h3><p id="d60b702f-7107-4160-8f66-d8108814f741" class="">• <code>정보처리기사</code></p><p id="15d089bd-2aab-4f48-bfd1-18ad8dba31b8" class="">• 네트워크관리사 2급</p><p id="5a1a7f48-51a6-44dc-9bd3-aa78a49e3efb" class="">• 컴퓨터활용능력 2급</p><p id="8910afd5-2f7a-4b0d-bba5-8ce114711ed9" class="">• 국가공인자격한자 2급</p><p id="5ce50786-98e6-45bd-9717-822fd9d5cc46" class="">• 한국사능력검정시험 2급</p></div><div id="d06fa4d5-45ed-48bb-b25d-75ae54edd7ac" style="width:50%" class="column"><h3 id="a661015f-e64b-4d38-aaaa-3b678864f6a4" class="">학력 </h3><p id="02fed08b-8fa3-4204-908d-deed229093a1" class="">• 국가평생교육진흥원 <code>컴퓨터공학</code> <code>학사</code>  </p><h3 id="e5d2e27e-2e22-4f2b-9755-2a965b942048" class="">교육</h3><p id="3f6a2a82-97e4-4d89-a879-c18157f2a5e8" class="">• 한국소프트인제개발원</p><p id="d110b8ef-b945-4c87-97de-bf14e2e35538" class="">• <code>JAVA</code> &amp; <code>블록체인</code> 개발자양성과정 수료</p><p id="eb5a9aae-354f-441d-9c76-6d1cc159c4f5" class="">
+</p><p id="2d67d59f-e799-4dbc-85e6-10005beab9ed" class="">• 서울ICT이노베이션스퀘어</p><p id="0876b7d0-69b5-46bd-ab1f-e2e04dd9785e" class="">•<code>블록체인</code> 고급 프로젝트 개발 과정 수료</p><p id="c3764399-859b-42aa-a2db-47392a167b2c" class="">
+</p></div></div><p id="0731e5f0-8018-4f62-b0ff-afc66eea50a4" class="">
+</p><h1 id="3e8ff993-15f3-4d90-bc2c-eb2d6296978c" class="">⚒️ Skills</h1><figure id="bed2b2d3-48e4-4f53-9f4e-160f31a6a6c1" class="image"><a href="data/Line_1_(1).png"><img style="width:1080px" src="data/Line_1_(1).png"/></a></figure><div id="e1136b14-f287-4d57-a3ab-253ef91059cf" class="column-list"><div id="1eed75b5-4a3e-4002-a611-b3dcc46fbc5e" style="width:33.33333333333333%" class="column"><p id="126c2e21-084d-485c-89e5-6e878cc7beaa" class=""><strong>Hard Skills</strong></p><p id="fc6772ec-102c-4f1f-a2cc-87e709e8109d" class="">• <mark class="highlight-blue">커뮤니케이션</mark></p><p id="53394766-ebc8-4277-a421-26d1ec130fe6" class="">• Java/Spring</p><p id="39457296-1a66-4c51-9358-810a7e6013c8" class="">• Javascript/Jquery</p><p id="acdc1e65-ae48-4365-a6f8-619a0e5f2d20" class="">• Mysql/Mariadb</p><p id="b9d24f68-46df-4df1-8964-49be8774e1b6" class="">
+</p></div><div id="ed3610cf-320b-430b-995b-8d0b0145549b" style="width:33.33333333333333%" class="column"><p id="aa672157-b88b-42b6-8592-9b4c220580fa" class=""><strong>Soft Skills</strong></p><p id="c9249c70-4d45-492a-835e-26bf07da1758" class="">• <mark class="highlight-teal">친화력</mark></p><p id="8b6e46d8-969f-41b3-a799-44b5bbf8c38e" class="">• Solidity</p><p id="88ce1b80-902b-415c-bec7-7790ff38e1ef" class="">• React/React-native</p><p id="b5eec006-7563-42dc-9ab0-e2e167a417c8" class="">• Docker/Docker-compose</p><p id="e9d9a867-75b6-4f60-baef-e27119cb6353" class="">
+</p><p id="91fce859-9920-44e3-b5c4-2d1f26295670" class="">
+</p></div><div id="e857ee52-013f-45e6-b349-52c7ddbe8511" style="width:33.333333333333364%" class="column"><p id="9d96809e-f991-4162-bccd-e54a56831e87" class=""><strong>Tools</strong></p><p id="40e02cf5-8d24-497f-a125-e9e5cc70a934" class="">• <mark class="highlight-yellow">직관력</mark></p><p id="48383e85-7208-4c3a-9d62-b79c7925be19" class="">• Eclipse/IntelliJ</p><p id="065f39fd-796d-45f2-ab7e-cff5972c969b" class="">• Git/Gitlab/Sourcetree</p><p id="13852364-5f50-488c-a4e0-9cdd0805b771" class="">• Vscode/Figma</p><p id="28e7eb5e-ee65-49ff-8f71-6f7617506283" class="">
+</p></div></div><h1 id="3aa6c8d7-8437-4f2b-a770-7abf6e96e530" class="">👩🏻‍💻 Projects</h1><figure id="86e58b66-96c3-44fa-9a98-c2d89a0e4ade" class="image"><a href="data/Line_1_(1).png"><img style="width:1080px" src="data/Line_1_(1).png"/></a></figure><p id="6ec0d7a6-7a0e-4ed7-8cd3-eaaeea495e30" class="">담당한 프로젝트를 <code>최신순</code>으로 구성했습니다. 각 <code>이미지를 누르면</code> 주요 내용 / 역할&amp;기여도 / 기간 등을 확인할 수 있습니다.</p><p id="157ecdad-704a-4aa0-920e-2b918bf3a583" class="">
+</p><div id="86fcc0e6-5660-4f6b-9db0-9edf1d812ab5" class="collection-content"><h4 class="collection-title">주요 프로젝트 포트폴리오</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>이름</th></tr></thead><tbody><tr id="381e8a07-f090-4309-b3ae-baab0bc588dd"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5B%E1%84%80%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB%5D%20%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%8C%E1%85%B5%E1%84%80%E1%85%A1%E1%86%B8%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20381e8a07f0904309b3aebaab0bc588dd.html">[개인] 블록체인 지갑 프로젝트</a></td></tr><tr id="24cda5bd-2ca6-41fc-93d2-d216e2bdd3fc"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5BABC%5D%20KTHULU%2024cda5bd2ca641fc93d2d216e2bdd3fc.html">[ABC] KTHULU</a></td></tr><tr id="cdeacddf-12ba-4bf2-8daf-75e051b6c41f"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5BABC%5D%20HeavenArt%20-%20NFT%20Market%20Place%20cdeacddf12ba4bf28daf75e051b6c41f.html">[ABC] HeavenArt - NFT Market Place</a></td></tr><tr id="8ece6137-c023-4ae5-8107-64e56c27ee1f"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5BABC%5D%20MOZAC%208ece6137c0234ae5810764e56c27ee1f.html">[ABC] MOZAC</a></td></tr><tr id="0a9a58bb-3656-48ec-baf8-3d711165e22a"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5BABC%5D%20%E1%84%8B%E1%85%B2%E1%84%90%E1%85%A9%E1%86%BC%E1%84%86%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B2%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%200a9a58bb365648ecbaf83d711165e22a.html">[ABC] 유통물류시스템</a></td></tr><tr id="45b12c88-724c-4b73-9e68-13ca95ef532b"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5BABC%5D%20WMALL%2045b12c88724c4b739e6813ca95ef532b.html">[ABC] WMALL</a></td></tr><tr id="821be198-977d-4bbf-a77d-422882422948"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5BABC%5D%20Meyouall%20821be198977d4bbfa77d422882422948.html">[ABC] Meyouall</a></td></tr><tr id="f7aae90b-3a67-4a64-b148-66213ebbf10b"><td class="cell-title"><a href="data/%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%2086fcc0e656604f6b9db09edf1d812ab5/%5B%E1%84%80%E1%85%AD%E1%84%8B%E1%85%B2%E1%86%A8%20%E1%84%90%E1%85%B5%E1%86%B7%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%5D%20Shepe%20f7aae90b3a674a64b14866213ebbf10b.html">[교육 팀프로젝트] Shepe</a></td></tr></tbody></table></div><p id="0a568dab-e5d0-446c-bf6a-230b9ca89f39" class="">
+</p><h1 id="82a82e2e-ff6e-461d-be52-ea3de5a5bbc0" class="">💫 About me</h1><figure id="33429a0a-a188-4d6b-a46a-f7fd2d470b96" class="image"><a href="data/Line_1_(1).png"><img style="width:1080px" src="data/Line_1_(1).png"/></a></figure><div id="be9f318c-d79a-4fef-907c-b18746ef9d85" class="column-list"><div id="a8a1d4bc-bc0c-4ae2-a4b8-f337fa449f1c" style="width:50%" class="column"><ul id="ca743729-449b-4e6c-9845-e0d42aab6f7f" class="bulleted-list"><li style="list-style-type:disc">&#x27;tyrannojung Archive&#x27; Tistory Blog</li></ul><figure id="833a964d-180f-4f48-8f88-96a29432d54b"><a href="https://tyrannocoding.tistory.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">TYRANNO</div><div class="bookmark-description">꿈은 꾸는것이기도 하고, 강력한 동기 부여의 수단이기도 하며, 결국 이루는 것이다.</div></div><div class="bookmark-href"><img src="https://tistory3.daumcdn.net/tistory/4258485/c851ef26159c42a5bdec0aa11a37b38c" class="icon bookmark-icon"/>https://tyrannocoding.tistory.com/</div></div><img src="https://tistory1.daumcdn.net/tistory/4258485/attach/10ddd1a9f33a4cd6aece0cbc4a66d42f" class="bookmark-image"/></a></figure></div><div id="ae852aff-fb3d-49f6-b645-11ddba941546" style="width:50%" class="column"><ul id="be2a6460-831d-4060-b902-82f1f51d8450" class="bulleted-list"><li style="list-style-type:disc">&#x27;tyrannojung&#x27; Github</li></ul><figure id="d35034a2-ddbf-443b-a7b1-d303d942252f"><a href="https://github.com/tyrannojung" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">tyrannojung - Overview</div><div class="bookmark-description">Predecessor Engineer😁 Application Development Team/Technical R&amp;D Center😆 https://www.abc.ne.kr/ - tyrannojung</div></div><div class="bookmark-href"><img src="https://github.com/favicon.ico" class="icon bookmark-icon"/>https://github.com/tyrannojung</div></div><img src="https://avatars.githubusercontent.com/u/58019931?v=4?s=400" class="bookmark-image"/></a></figure></div></div><p id="bc1c19a4-639e-4bfb-b4ee-74590cabeb9c" class="">
+</p><h1 id="c114e7c2-5ffe-428b-8f00-b4c871ecdc08" class="">👩🏻‍🚀 Experience</h1><figure id="2db87e8f-6a5b-4fcf-93d6-a8935f0b33fb" class="image"><a href="data/Line_1_(1).png"><img style="width:1080px" src="data/Line_1_(1).png"/></a></figure><p id="bb01596e-f59d-474e-99f1-62afa5c5e4da" class="">⭐성공  👨‍💻 코딩 📖 독서 🌏 여행</p><ul id="98ecf91a-25ef-4a04-baa7-1387aff95507" class="bulleted-list"><li style="list-style-type:disc"><code>목표</code>가 생기면 최고의 성과를 내며 <code>성공</code>이 취미입니다.</li></ul><ul id="2562414a-6baa-47cd-bae0-a029d3a1cc8f" class="bulleted-list"><li style="list-style-type:disc">코딩할 때가 제일 행복합니다. 현재는 <code>WEB</code>과 <code>블록체인</code>에 빠졌습니다.</li></ul><ul id="1475a15c-2cf2-4f6c-b18d-a310097a1fe3" class="bulleted-list"><li style="list-style-type:disc">책 읽기와 글쓰기를 좋아합니다.</li></ul><ul id="c547b5ef-eacb-43f6-93d6-a44d510646d2" class="bulleted-list"><li style="list-style-type:disc">미국 일본 유럽 동남아를 다녀왔었습니다.</li></ul><p id="f687cae5-a69f-4431-b31b-7d382f4694b6" class="">
+</p><h1 id="1c4dd3f8-047a-492b-989f-974a9c4f4ab3" class="">🙋🏻 How i work</h1><figure id="7d0df1be-ee98-4a2f-badf-03bc7a560fce" class="image"><a href="data/Line_1_(1).png"><img style="width:1080px" src="data/Line_1_(1).png"/></a></figure><ul id="469f94a8-bf62-470a-8aa3-e4bd7d06127a" class="bulleted-list"><li style="list-style-type:disc"><code>목표</code>를 통해 얻는 <code>노력</code>과 <code>성과</code>의 즐거움을 누구보다 잘 압니다.</li></ul><ul id="13418aad-83bc-499e-9060-638f33e762e7" class="bulleted-list"><li style="list-style-type:disc">항상 웃는 얼굴로 회사와 동료들에게 긍정적인 영향을 주는 <code>Smile Boy</code> 입니다.</li></ul><ul id="a5da8dd8-7ec1-40bb-b114-221206020e8e" class="bulleted-list"><li style="list-style-type:disc">저는 <code>문제</code>가 생기면 행복합니다. 그 속에서 배우는 실패와 성공을 통해 <code>성장</code>하기 때문입니다.</li></ul><ul id="0fd5cc2c-3d2f-4b96-bbb8-6978fca767ff" class="bulleted-list"><li style="list-style-type:disc">어떤 일이라도 <code>주인의식</code>을 갖고 <code>감정이입</code>을 합니다. 그 속에서 <code>몰입</code>을 경험합니다.</li></ul><p id="28799c2e-83c5-4dbe-9f6c-d499c828a599" class="">
+</p><h1 id="e8b2970a-47f1-4d82-81f6-e2ffaaa0117d" class="">👋 Contact</h1><figure id="65f2a4b6-3373-4b23-a270-d18e68611373" class="image"><a href="data/Line_1_(1).png"><img style="width:1080px" src="data/Line_1_(1).png"/></a></figure><p id="f465ba47-3233-4c13-ad87-67f52618d9c5" class="">✉️ <a href="mailto:tyrannojung@naver.com">tyrannojung@naver.com</a> 📱<mark class="highlight-gray">+82 10-2401-8180   🏠 서울 동작구</mark></p><p id="1c0c22d0-ac01-4159-bae9-1e02a4f78d07" class="">
+</p><hr id="f6134160-c9b8-43cc-8ef3-875ed5eaddef"/><div id="7c42500e-51ae-4c60-aace-326f2fea6e39" class="column-list"><div id="4cacd4fc-399a-4245-9610-29a795cf4286" style="width:87.5%" class="column"><p id="3096c56b-0ba7-4bdd-b7bf-ece3f16e2c88" class=""><mark class="highlight-gray">Copyright. Dawoon Jung all rights reserved.</mark></p></div><div id="63f6dcde-a2de-47db-96d1-eb3ece9ffbd6" style="width:12.499999999999995%" class="column"><figure id="7739ea8e-a1a0-4efa-bf6b-eca2524bad03" class="image"><a href="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://wanted.notion.site/8f25cbcf4a0c4c379474eb8920cf4cac"><img style="width:144px" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://wanted.notion.site/8f25cbcf4a0c4c379474eb8920cf4cac"/></a></figure><p id="8b08874e-4a3f-4858-8d20-dd07c0ba6c8c" class="">
+</p></div></div></div></article></body></html>
